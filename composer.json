@@ -1,0 +1,19 @@
+{
+    "name": "naufalhakim/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Naufalhakim\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "naufal hakim",
+            "email": "naufalhakim366@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
